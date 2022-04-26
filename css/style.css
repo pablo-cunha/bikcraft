@@ -1,0 +1,7 @@
+/* Imports CSS */
+@import "./global/header.css";
+@import "./util/tipografia.css";
+@import "./util/cores.css";
+@import "./global/global.css";
+@import "./home/main.css";
+@import "./components/components.css"
