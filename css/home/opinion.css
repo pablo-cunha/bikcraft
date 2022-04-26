@@ -1,0 +1,60 @@
+/* Estilos OPINION SECTION */
+.opinion-box {
+    background-color: var(--cor-p1);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+}
+
+.opinion-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0px;
+}
+
+.opinion-content {
+    padding: 40px 40px 80px 80px;
+    align-self: end;
+}
+
+.opinion-content p {
+    position: relative;
+    max-width: 32ch;
+    font-family: "Merriweather", serif;
+    font-style: italic;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.opinion-box p::before {
+    position: absolute;
+    left: -40px;
+    top: -20px;
+    color: var(--cor-p2);
+    content: "“";
+    font-size: 4rem;        
+}
+
+.opinion-box p::after {
+    position: absolute;
+    color: var(--cor-p2);
+    content: "”";
+    font-size: 4rem;
+}
+
+@media(max-width: 800px) {
+    .opinion-box {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .opinion-box img {
+        max-height: 250px;
+    }
+
+    .opinion-content {
+        padding: 40px 20px;
+        justify-self: center;
+    }
+}

@@ -1,0 +1,63 @@
+.partners-box {
+    padding-bottom: 120px;
+}
+
+.partners-box h2 {
+    margin-bottom: 60px;
+}
+
+.partners-box ul {
+    padding: 0 20px;
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+}
+
+.partners-box li {
+    display: flex;
+    padding: 32px;
+    border-left: 2px solid var(--cor-2);
+}
+
+.partners-box img {
+    margin: auto;
+}
+
+.partners-box li:first-child,
+.partners-box li:nth-child(5) {
+    border-left: none;
+}
+
+/* A partir do quinto filho */
+.partners-box li:nth-child(n + 5) {
+    border-top: 2px solid var(--cor-2);
+}
+
+
+/* Responsividade PARTNERS */
+@media (max-width: 800px) {
+    .partners-box {
+        padding-bottom: 60px;
+    }
+
+    .partners-box h2 {
+        margin-bottom: 20px;
+    }
+
+    .partners-box ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .partners-box li:nth-child(n + 3) {
+        border-top: 2px solid var(--cor-2);
+    }
+
+    .partners-box li:nth-child(odd) {
+        border-left: none;
+    }
+
+    .partners-box li {
+        padding: 20px;
+    }
+}

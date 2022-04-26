@@ -11,6 +11,7 @@
 @import "./home/main.css";
 @import "./home/tech.css";
 @import "./home/partners.css";
+@import "./home/opinion.css";
 
 /* Util */
 @import "./util/components.css";
