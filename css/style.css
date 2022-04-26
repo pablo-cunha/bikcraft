@@ -1,14 +1,18 @@
 /* Imports CSS */
 
-/* Uteis */
-@import "./global/global.css";
-@import "./util/tipografia.css";
-@import "./util/cores.css";
-
-/* Componentes */
-@import "./global/header.css";
-@import "./components/components.css";
-@import "./home/main.css";
-
 /* Bicicletas */
-@import "./bicicletas/bicicletas-lista.css"
+@import "./bicicletas/bicicletas-lista.css";
+
+/* Global */
+@import "./global/global.css";
+@import "./global/header.css";
+
+/* Home */
+@import "./home/main.css";
+@import "./home/tech.css";
+@import "./home/partners.css";
+
+/* Util */
+@import "./util/components.css";
+@import "./util/cores.css";
+@import "./util/tipografia.css";

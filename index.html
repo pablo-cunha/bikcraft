@@ -13,8 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- HEADER -->
     <header class="header-bg">
-        <div class="header-box">
+        <div class="header-box container">
             <a href="./">   
                 <img src="./img/bikcraft.svg" alt="Bikcraft">
             </a>
@@ -27,12 +28,13 @@
             </nav>
         </div>
     </header>
+    <!-- MAIN CONTAINER -->
     <main class="main-bg">
-        <div class="main-box">
+        <div class="main-box container">
             <div class="main-content">
-                <h1 class="poppins-xxl">Bicicletas feitas sob medida</h1>
-                <p class="texto-medio">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você.
-                Explore o mundo na sua velocidade com a Bikcraft<span>.</span>
+                <h1 class="poppins-xxl">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
+                <p class="roboto-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você.
+                Explore o mundo na sua velocidade com a Bikcraft.
                 </p>
                 <a class="botao" href="./bicicletas.html">Escolha a sua</a>
             </div>
@@ -41,31 +43,76 @@
             </div>
         </div>
     </main>
+    <!-- BIKE LIST -->
     <article class="bike-list">
-        <h2 class="poppins-xxl">Escolha a sua<span>.</span></h2>
+        <h2 class="container poppins-xxl">Escolha a sua<span class="cor-p1">.</span></h2>
         <ul>
             <li>
                 <a href="./pages/magic.html">
                     <img src="./img/bicicletas/magic-home.jpg" alt="Bicicleta preta">
                     <h3 class="poppins-xl">Magic Might</h3>
-                    <span class="roboto-m price">R$ 2499</span>
+                    <span class="roboto-m cor-8">R$ 2499</span>
                 </a>
             </li>
             <li>
                 <a href="./pages/nimbus.html">
                     <img src="./img/bicicletas/nimbus-home.jpg" alt="Bicicleta preta">
                     <h3 class="poppins-xl">Nimbus Stark</h3>
-                    <span class="roboto-m price">R$ 4999</span>
+                    <span class="roboto-m cor-8">R$ 4999</span>
                 </a>
             </li>
             <li>
                 <a href="./pages/nebula.html">
                     <img src="./img/bicicletas/nebula-home.jpg" alt="Bicicleta preta">
                     <h3 class="poppins-xl">Nebula Cosmic</h3>
-                    <span class="roboto-m price">R$ 3999</span>
+                    <span class="roboto-m cor-8">R$ 3999</span>
                 </a>
             </li>
         </ul>
     </article>
+    <!-- TECH ARTICLE -->
+    <article class="tech-bg">
+        <div class="tech-box container">
+            <div class="tech-content">
+                <span class="roboto-l-b cor-5">Tecnologia Avançada</span>
+                <h2 class="poppins-xxl cor-0">você escolhe as suas cores e componentes<span class="cor-p1">.</span></h2>
+                <p class="roboto-l cor-5">Cada Bikcraft é única e possui a sua identidade. As medidas serão exatas para o
+                    seu corpo e altura, garantindo maior conforto e ergonomia na sua pedalada. Você
+                    pode também personalizar completamente as suas cores.</p>
+                <a class="link" href="./bicicletas.html">Escolha um modelo</a>
+                <div class="tech-vantagens">
+                    <div>
+                        <img src="./img/icones/eletrica.svg">
+                        <h3 class="poppins-m cor-0">Motor Elétrico</h3>
+                        <p class="roboto-s cor-0">Toda Bikcraft é equipada com um motor elétrico que possui duração de até
+                            120h. A bateria é recarregada com a sua energia gasta ao pedalar.</p>
+                    </div>
+                    <div>
+                        <img src="./img/icones/rastreador.svg">
+                        <h3 class="poppins-m cor-0">Rastreador</h3>
+                        <p class="roboto-s cor-0">Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos rastreadores e 
+                        sistemas anti-furto para garantir o seu sossego.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-img">
+                <img src="./img/fotos/tecnologia.jpg" alt="Imagem decorativa">
+            </div>
+        </div>
+    </article>
+    <!--PARTNERS SECTION-->
+    <section class="partners" aria-label="Nossos Parceiros">
+        <h2 class="container poppins-xxl">nossos parceiros<span class="cor-p1">.</span></h2>
+        <ul>
+            <li><img src="./img/parceiros/caravan.svg" alt="caravan"></li>
+            <li><img src="./img/parceiros/dogs.svg" alt="dogs"></li>
+            <li><img src="./img/parceiros/flexblog.svg" alt="flexblog"></li>
+            <li><img src="./img/parceiros/handel.svg" alt="handel"></li>
+            <li><img src="./img/parceiros/lescone.svg" alt="lescone"></li>
+            <li><img src="./img/parceiros/ranek.svg" alt="ranek"></li>
+            <li><img src="./img/parceiros/surfbot.svg" alt="surfbot"></li>
+            <li><img src="./img/parceiros/wildbeast.svg" alt="wildbeast"></li>
+        </ul>
+    </section>
 </body>
 </html>

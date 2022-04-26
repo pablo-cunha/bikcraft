@@ -1,0 +1,88 @@
+/* Estilos TECH-ARTICLE */
+.tech-bg {
+    background: var(--cor-11);
+    /* Valor negativo adiciona a sombra abaixo */
+    box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-0);
+}
+
+.tech-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.tech-content {
+    padding-top: 160px;
+    padding-bottom: 160px; 
+}
+
+.tech-content > span {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.tech-content > h2 {
+    margin-bottom: 32px;
+}
+
+.tech-content > p {
+    margin-bottom: 20px;
+}
+
+.tech-content a {
+    margin-bottom: 80px;
+}
+
+
+.tech-img img {
+    width: 100%;
+    height: 100%;
+    /* Impede a foto de deformar*/
+    object-fit: cover;
+    object-position: left;
+}
+
+.tech-vantagens {
+    display: flex;
+    gap: 40px;
+}
+
+.tech-vantagens h3 {
+    margin-bottom: 8px;
+    width: max-content;
+}
+
+.tech-vantagens img {
+    width: 24px;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+    .tech-bg {
+        box-shadow: initial;
+    }
+
+    .tech-img img {
+        display: none;
+    }
+
+    .tech-box {
+        grid-template-columns: 1fr;
+    }
+
+    .tech-content {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .tech-content a {
+        margin-bottom: 60px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .tech-vantagens {
+        flex-direction: column;
+    }
+}
