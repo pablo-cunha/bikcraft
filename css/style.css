@@ -6,12 +6,16 @@
 /* Global */
 @import "./global/global.css";
 @import "./global/header.css";
+@import "./global/footer.css";
 
 /* Home */
 @import "./home/main.css";
 @import "./home/tech.css";
 @import "./home/partners.css";
 @import "./home/opinion.css";
+
+/* Insurance */
+@import "./insurance/insurance.css";
 
 /* Util */
 @import "./util/components.css";
