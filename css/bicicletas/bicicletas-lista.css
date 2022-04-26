@@ -1,0 +1,33 @@
+/* Estilos LISTA-BICICLETAS */
+.bike-list {
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.bike-list ul {
+    display: flex;
+    gap: 40px;
+    padding: 0 20px;
+    /* Margin: auto nos lados sempre acompanha um MAX-WIDTH */
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bike-list h2 {
+    margin-bottom: 40px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bike-list > h2 > span {
+    color: var(--cor-p1);
+}
+
+.price {
+    color: var(--cor-8);
+}
