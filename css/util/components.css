@@ -63,3 +63,27 @@
 .link:hover {
     color: var(--cor-1);
 }
+
+/* Estilos PAGES-TITLE */
+.title-bg {
+    background-color: var(--cor-11);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.title-box p {
+    margin-bottom: 4px;
+}
+
+@media(max-width: 800px) {
+    .title-bg {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .title-box p {
+        font-size: 1rem;
+        text-transform: lowercase;
+        font-weight: 400;
+    }
+}

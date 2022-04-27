@@ -17,6 +17,9 @@
 /* Insurance */
 @import "./insurance/insurance.css";
 
+/* Pages */
+@import "./pages/termos.css";
+
 /* Util */
 @import "./util/components.css";
 @import "./util/cores.css";

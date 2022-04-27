@@ -1,0 +1,20 @@
+/* Estilos TERMOS PAGE */
+.terms-box {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.terms-box h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.terms-box p + h2 {
+    margin-top: 40px;
+}
+
+.terms-box p {
+    max-width: 75ch;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
