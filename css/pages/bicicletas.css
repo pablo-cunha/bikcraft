@@ -1,0 +1,103 @@
+/* Estilos BIKES PAGE */
+.bikes-bg {
+    background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0%);
+}
+
+.bikes-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bikes-img {
+    position: relative;
+}
+
+.bikes-img span {
+    background: var(--cor-12);
+    padding: 8px 16px 8px 8px;
+    display: inline-block;
+    border-radius: 4px 0 0 4px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+.bikes-content {
+    align-content: start;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-content: start;
+}
+
+.bikes-content h2,
+.bikes-content p {
+    grid-column: 1/-1;
+}
+
+.bikes-box h2 {
+    margin-bottom: 20px;
+}
+
+.bikes-box h2::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 8px;
+    background-color: var(--cor-p1);
+    margin-bottom: 8px;
+}
+
+.bikes-box p {
+    margin-bottom: 32px;
+}
+
+.bikes-box a {
+    place-self: end;
+}
+
+.bikes-box li {
+    display: flex;
+    align-items: center;
+}
+
+.bikes-box li + li {
+    margin-top: 16px;
+}
+
+.bikes-content img {
+    width: 24px;
+    margin-right: 8px;
+}
+
+/* Responsividade BIKES PAGE */
+@media (max-width: 800px) {
+    .bikes-bg {
+        background: var(--cor-11);
+    }    
+
+    .bikes-box {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .bikes-content {
+        grid-template-columns: 1fr;
+    }
+
+    .bikes-box a {
+        place-self: start;
+    }
+
+    .bikes-box ul {
+        font-size: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 32px;
+    }
+}

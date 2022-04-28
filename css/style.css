@@ -19,6 +19,7 @@
 
 /* Pages */
 @import "./pages/termos.css";
+@import "./pages/bicicletas.css";
 
 /* Util */
 @import "./util/components.css";
