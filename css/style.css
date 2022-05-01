@@ -2,6 +2,8 @@
 
 /* Bicicletas */
 @import "./bicicletas/bicicletas-lista.css";
+@import "./bicicletas/bicicleta.css";
+@import "./bicicletas/seguro.css";
 
 /* Global */
 @import "./global/global.css";
@@ -21,8 +23,11 @@
 @import "./pages/termos.css";
 @import "./pages/bicicletas.css";
 @import "./pages/seguros.css";
+@import "./pages/contato.css";
+@import "./pages/lojas.css";
 
 /* Util */
 @import "./util/components.css";
 @import "./util/cores.css";
 @import "./util/tipografia.css";
+@import "./util/formulario.css";

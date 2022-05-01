@@ -1,0 +1,67 @@
+/* Estilos STORES ARTICLE */
+.lojas-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 40px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.lojas-box h2 {
+    grid-column: 1/-1;
+    margin-bottom: 60px;
+}
+
+.lojas-item {
+    border-radius: 4px;
+    background: var(--cor-0);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.lojas-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px 16px;
+    padding: 32px;
+}
+
+.lojas-content h3,
+.lojas-horario {
+    grid-column: 1/-1;
+}
+
+.lojas-dados {
+  display: grid;
+  gap: 9px;
+  border-left: 2px solid var(--cor-2);
+  padding-left: 12px;  
+}
+
+.lojas-horario {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Responsividade STORES ARTICLE */
+@media (max-width: 800px) {
+    .lojas-box {
+        gap: 20px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .lojas-box h2 {
+        margin-bottom: 32px;
+    }
+
+    .lojas-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .lojas-box {
+        grid-template-columns: 1fr;
+    }
+}
