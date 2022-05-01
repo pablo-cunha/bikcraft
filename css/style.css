@@ -25,6 +25,7 @@
 @import "./pages/seguros.css";
 @import "./pages/contato.css";
 @import "./pages/lojas.css";
+@import "./pages/orcamento.css";
 
 /* Util */
 @import "./util/components.css";
