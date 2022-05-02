@@ -7,12 +7,15 @@
     <title>Magic Might | Bikcraft</title>
     <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade, feitas sob
     medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
-    <link rel="preload" href="./css/style.css" as="style">
+    <link rel="preload" href="../css/style.css" as="style">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
+    <script>
+        document.documentElement.classList.add('js')
+    </script>
 </head>
 <body id="bike-page">
     <!-- HEADER -->
@@ -30,7 +33,7 @@
             </nav>
         </div>
     </header>
-    <!--NIMBUS MAIN-->
+    <!--MAGIC MAIN-->
     <main class="title-bg">
         <div>
             <div class="title-box container">
@@ -40,9 +43,9 @@
         </div>
         <div class="product-box container">
             <div class="product-img">
-                <img src="../img/bicicleta/nimbus2.jpg">
-                <img src="../img/bicicleta/nimbus1.jpg">
-                <img src="../img/bicicleta/nimbus3.jpg">
+                <img src="../img/bicicleta/nimbus2.jpg" alt="Bicicleta Preta">
+                <img src="../img/bicicleta/nimbus1.jpg" alt="Bicicleta Preta">
+                <img src="../img/bicicleta/nimbus3.jpg" alt="Bicicleta Preta">
             </div>
             <div class="product-content">
                 <p class="roboto-l cor-5">
@@ -51,7 +54,7 @@
                     conforto.
                 </p>
                 <div class="product-buy">
-                    <a href="../pages/orcamento.html" class="botao">Comprar Agora</a>
+                    <a href="../pages/orcamento.html?tipo=bikcraft&produto=magic" class="botao">Comprar Agora</a>
                     <span class="poppins-xs cor-6">
                         <img src="../img/icones/entrega.svg">entrega em 7 dias
                     </span>
@@ -174,5 +177,6 @@
             <p class="footer-copy roboto-m cor-6">Bikcraft - Alguns direitos reservados.</p>
         </div>
     </footer>
+    <script src="../js/script.js"></script>
 </body>
 </html>

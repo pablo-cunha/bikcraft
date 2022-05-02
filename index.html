@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
+    <script>
+        document.documentElement.classList.add('js')
+    </script>
 </head>
 <body>
     <!-- HEADER -->
@@ -34,13 +37,13 @@
     <main class="main-bg">
         <div class="main-box container">
             <div class="main-content">
-                <h1 class="poppins-xxl">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
-                <p class="roboto-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você.
+                <h1 class="poppins-xxl fadeInDown" data-anime="200">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
+                <p class="roboto-l cor-5 fadeInDown" data-anime="400">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você.
                 Explore o mundo na sua velocidade com a Bikcraft.
                 </p>
-                <a class="botao" href="./pages/bicicletas.html">Escolha a sua</a>
+                <a class="botao fadeInDown" data-anime="400" href="./pages/bicicletas.html">Escolha a sua</a>
             </div>
-            <div class="main-img">
+            <div class="main-img fadeInDown" data-anime="600">
                 <img src="./img/fotos/introducao.jpg" alt="Bicicleta Elétrica preta.">
             </div>
         </div>
@@ -198,5 +201,7 @@
             <p class="footer-copy roboto-m cor-6">Bikcraft - Alguns direitos reservados.</p>
         </div>
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
